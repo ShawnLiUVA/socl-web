@@ -25,6 +25,12 @@ const nextConfig = withStoreConfig({
         protocol: "https",
         hostname: "medusa-server-testing.s3.us-east-1.amazonaws.com",
       },
+      {
+        protocol: "https",
+        hostname: "www.mtu.edu",
+        port: '0',
+        pathname: '/news/2018/07/images/**',
+      },
     ],
   },
 })

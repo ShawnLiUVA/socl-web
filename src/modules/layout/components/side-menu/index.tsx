@@ -11,8 +11,8 @@ import CountrySelect from "../country-select"
 
 const SideMenuItems = {
   Home: "/",
-  Store: "/store",
-  Search: "/search",
+  "Product Library": "/store",
+  "PCB Tools": "/search",
   Account: "/account",
   Cart: "/cart",
 }

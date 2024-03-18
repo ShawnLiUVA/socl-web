@@ -14,6 +14,7 @@ export default function NotFound() {
       <h1 className="text-2xl-semi text-ui-fg-base">Page not found</h1>
       <p className="text-small-regular text-ui-fg-base">
         The page you tried to access does not exist.
+        Please contact Shawn Li @ UVA for help.
       </p>
       <Link
         className="flex gap-x-1 items-center group"

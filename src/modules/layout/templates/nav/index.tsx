@@ -23,7 +23,7 @@ export default async function Nav() {
               href="/"
               className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
             >
-              Medusa Store
+              SoCl
             </LocalizedClientLink>
           </div>
 
@@ -40,10 +40,25 @@ export default async function Nav() {
               )}
               <LocalizedClientLink
                 className="hover:text-ui-fg-base"
+                href="/store"
+              >
+                Library
+              </LocalizedClientLink>
+
+              <LocalizedClientLink
+                className="hover:text-ui-fg-base"
+                href="/"
+              >
+                PCB Tools
+              </LocalizedClientLink>
+
+              <LocalizedClientLink
+                className="hover:text-ui-fg-base"
                 href="/account"
               >
                 Account
               </LocalizedClientLink>
+
             </div>
             <Suspense
               fallback={
